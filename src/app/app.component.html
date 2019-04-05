@@ -3,7 +3,18 @@
 <h1>
   {{title}}!
 </h1>
+<h1>Responsive bar chart</h1>
+<app-bar-chart [data]="data | async"></app-bar-chart>
+<select [(ngModel)]="selectedLevel" (change)="selected()">
+  <option *ngFor="let item of data" [ngValue]="item">{{item.name}}</option>
+</select>
+{{selectedLevel | json}}
 
+<!-- <form NgModel [formGroup]="countryForm">
+  <select formControlName="countryControl">
+    <option [value]="country" *ngFor="let country of countries">{{country}}</option>
+  </select>
+ </form> -->
 <div>
   <canvas
       baseChart

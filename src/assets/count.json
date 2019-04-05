@@ -210,35 +210,35 @@
     "customersAtRiskByAge": {
         "customersAtHighRiskByAge": [
             {
-                "age": "Under 25",
+                "name": "Under 25",
                 "count": 32
             },
             {
-                "age": "45 to 54",
+                "name": "45 to 54",
                 "count": 1462
             },
             {
-                "age": "35 to 44",
+                "name": "35 to 44",
                 "count": 1124
             },
             {
-                "age": "Prefer not to respond",
+                "name": "Prefer not to respond",
                 "count": 1393
             },
             {
-                "age": "-",
+                "name": "-",
                 "count": 2000
             },
             {
-                "age": "55 to 64",
+                "name": "55 to 64",
                 "count": 2174
             },
             {
-                "age": "65 or older",
+                "name": "65 or older",
                 "count": 3924
             },
             {
-                "age": "25 to 34",
+                "name": "25 to 34",
                 "count": 523
             }
         ],
